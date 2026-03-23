@@ -1,0 +1,56 @@
+body{
+background:black;
+color:#00f7ff;
+font-family:Orbitron, sans-serif;
+text-align:center;
+margin:0;
+padding:0;
+}
+
+h1{
+font-size:70px;
+text-shadow:0 0 40px cyan;
+margin-top:20px;
+}
+
+.circle{
+width:220px;
+height:220px;
+border:5px solid cyan;
+border-radius:50%;
+margin:30px auto;
+animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+0%{box-shadow:0 0 10px cyan;}
+50%{box-shadow:0 0 60px cyan;}
+100%{box-shadow:0 0 10px cyan;}
+}
+
+#chat{
+width:80%;
+height:250px;
+margin:auto;
+border:1px solid cyan;
+padding:10px;
+overflow:auto;
+background:rgba(0,0,0,0.7);
+border-radius:10px;
+}
+
+button{
+padding:15px 25px;
+margin:20px;
+background:black;
+color:cyan;
+border:1px solid cyan;
+border-radius:10px;
+cursor:pointer;
+font-size:18px;
+}
+
+button:hover{
+background:cyan;
+color:black;
+}
